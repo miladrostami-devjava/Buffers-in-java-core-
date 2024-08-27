@@ -1,0 +1,11 @@
+Explanation of the Code:
+Import Statements: The necessary classes are imported: FileInputStream, FileOutputStream, IOException, and FileChannel.
+
+File Paths: Two string variables, inputFile and outputFile, are defined. These represent the paths of the input and output files, respectively.
+
+Try-with-Resources: This is used to automatically close resources (FileInputStream, FileOutputStream, and FileChannel) after the block is executed. This ensures that resources are properly released, preventing potential resource leaks.
+
+File Channels:
+
+FileInputStream (fis) and FileOutputStream (fos) are created for reading from and writing to the specified files.
+getChannel() method is called on these streams to
